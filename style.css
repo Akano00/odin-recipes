@@ -1,0 +1,46 @@
+h1{
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+h2{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+button{
+  background-color: gold;
+}
+a{
+  color: black;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  background-color: rgb(148, 15, 15);
+border-style:solid;
+border-color: aliceblue;
+}
+.content{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  text-align: left;
+}
+.content-h2,
+.content-h3,
+.content-h4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+#img-1{
+  width: auto;
+  height: auto;
+}
+
+.img-1recipe.img-2recip2{
+  height: auto;
+  width: 300px;
+}
