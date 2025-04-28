@@ -1,23 +1,41 @@
+
 h1{
   color: black;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
 }
+
 h2{
   color: black;
   font-size: 15px;
   font-weight: bold;
   text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+ol,ul{
+margin: 0;
+}
+
+.first-p{
+  margin-top: 0;
 }
 button{
   background-color: gold;
 }
+/* adjacent sibling selector(pesudo element) */
+h2 + p::first-letter{
+  font-size: 38px;
+}
+
 a{
   color: black;
   text-align: left;
   font-family: 'Times New Roman', Times, serif;
 }
+
 body{
   background-color: rgb(148, 15, 15);
 padding: 0;
@@ -25,11 +43,13 @@ padding: 0;
 border-color: aliceblue; */
  outline: 2px solid #ffff; 
 }
+
 .content{
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
   text-align: left;
 }
+
 .content-h2,
 .content-h3,
 .content-h4{
@@ -37,12 +57,44 @@ border-color: aliceblue; */
   font-size: 18px;
   text-align: center;
 }
+
 #img-1{
   width: auto;
   height: auto;
+  margin-left: 40%;
+}
+
+#img-3{
+  margin-left: 100px;
 }
 
 .img-1recipe.img-2recip2{
   height: auto;
   width: 300px;
+}
+
+ .step-5{
+ padding-bottom: 10px;
+}
+
+.content-h4,
+.content-h2{
+  margin-bottom: 0;
+} 
+
+.r2-meatball{
+  margin-left: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.r2-sauce-n-pasta{
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.p2,
+.p3{
+  margin-left: 10px;
+  padding-bottom: 10px;
 }
