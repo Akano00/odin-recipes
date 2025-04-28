@@ -20,8 +20,10 @@ a{
 }
 body{
   background-color: rgb(148, 15, 15);
-border-style:solid;
-border-color: aliceblue;
+padding: 0;
+  /* border-style: solid;
+border-color: aliceblue; */
+ outline: 2px solid #ffff; 
 }
 .content{
   font-family: 'Times New Roman', Times, serif;
